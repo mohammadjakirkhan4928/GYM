@@ -1,0 +1,51 @@
+.top{
+    position:sticky;
+    top:0;
+    padding: 30px 20px;
+}
+.second{
+display: flex;
+gap: 10px;
+color: mediumblue;
+font-size: 19px;
+font-weight: bold;
+}
+.second img{
+    border-radius: 30%;
+    height: 70px;
+}
+.location{
+    font-weight: 200;
+    color:royalblue;
+}
+.third{
+    display: flex;
+    gap: 33px;
+    margin: 12px;
+    border: 1px solid rgb(243, 109, 7);
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 33px;
+}
+.excersie-time{
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 12px;
+    background-color: aliceblue;
+}
+.fourth{
+    border: 1px solid rgb(246, 9, 21);
+    background-color: aqua;
+    border-radius: 12px;
+
+}
+.btn-last{
+    margin: 13px;
+    background-color: navy;
+    font-size: 16px;
+    color: whitesmoke;
+    border-radius: 12px;
+}
+.btn-last:hover{
+    background-color: rgb(252, 7, 7);
+}

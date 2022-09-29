@@ -1,0 +1,18 @@
+.card-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.right-side{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin: 100px 50px;
+}
+.left-side{
+    background-color: chartreuse;
+}
+@media  screen and (max-width: 600px) {
+    .right-side{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
