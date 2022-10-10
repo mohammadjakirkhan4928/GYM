@@ -6,12 +6,15 @@ import Items from '../Items/Items';
 const Card = () => {
     const[items, setItems] = useState([])
     const[imformation, setImformation] = useState(0)
+
     console.log(imformation);
     useEffect( () =>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setItems(data))
     },[])
+
+
 
     const handleAddToList =(hello) =>{
          const newImformation =parseInt(hello);

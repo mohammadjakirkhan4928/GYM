@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Imformation.css'
 import logo from'../../Images/zayn.jpg'
 
 const Imformation = ({imformation}) => {
-
 
     return (
         <div className='top'>
@@ -28,6 +27,7 @@ const Imformation = ({imformation}) => {
                 Age
                 </p>
             </div>
+           
             <div className='fourth'>
                 <h4>Exercise Details </h4>
                 <div className='excersie-time'>
