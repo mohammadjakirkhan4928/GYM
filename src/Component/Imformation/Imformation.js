@@ -27,7 +27,7 @@ const Imformation = ({imformation}) => {
                 Age
                 </p>
             </div>
-           
+
             <div className='fourth'>
                 <h4>Exercise Details </h4>
                 <div className='excersie-time'>
